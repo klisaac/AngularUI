@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
 import { AuthGuardService } from './core/services/auth-guard.service';
+
 import {LoginComponent} from './views/login/login.component';
 import {RegisterComponent} from './views/login/register.component';
-
 import { P404Component } from './views/error/p404.component';
 import { P500Component } from './views/error/p500.component';
 import { LayoutComponent } from './core/layout/layout.component';
