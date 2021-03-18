@@ -6,5 +6,5 @@
 export const environment = {
   production: true,
   staging: false,
-  apiUrl: 'https://aspnet5-webapi.azurewebsites.net/api'
+  apiUrl: 'https://aspnet5-webapi-isaac.azurewebsites.net/api'
 };
